@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+
+        android:paddingRight="10dp"
+        tools:context="com.example.tugcesakarya.saksimuygulamasi.CicekGoster">
+
+
+        <TextView
+            android:id="@+id/txtCicekAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"
+            android:text="TextView"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            android:scaleType="fitXY"
+
+            app:srcCompat="@drawable/bg_bar" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçegin Anlamı"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/txtAnlami"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçegin Anavatanı"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtAnavatani"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçegin Yetiştirilme Mevsimi"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtMevsim"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:text="TextView" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçegin Renkleri"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtRenkleri"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçegin Tür Sayısı"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtTurSayisi"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:text="TextView" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçegin Sulanması"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtSulama"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçegin Budanması"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtBudama"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçegin Gübre ve Vitaminleri"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtGubreVitamin"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçegin Toprak Değişimi"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtTopragininDegisimi"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçegin Saksı Değişimi"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtSaksisininDegisimi"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçegin Barındırma Özellikleri"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtBarindirilmaOzellikleri"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçegin Çogaltılması"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtCogaltilmasi"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçege Zarar Veren Olaylar"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtZararVerenSeyler"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Çiçegin Kullanıldı Yerler"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtKullanildigiYerler"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="com.example.tugcesakarya.saksimuygulamasi.Giris" android:background="@drawable/bg">
+
+    <EditText
+        android:id="@+id/txtKadi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="tugce" />
+
+    <EditText
+        android:id="@+id/txtSifre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="t1" />
+
+
+    <Button
+        android:id="@+id/btnGiris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giriş" />
+
+    <Button
+        android:id="@+id/btnyeni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yeni Üye" />
+</LinearLayout>
+
